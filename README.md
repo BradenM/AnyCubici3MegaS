@@ -13,6 +13,8 @@ Notes, Firmware, Configs, Scripts, etc. for my AnyCubic i3 Mega-S Printer
 
 ## Calibration
 
+Settings that I have tuned for my specific printer. [See Here](./Firmware/README.md) for firmware changes.
+
 | Setting         | Value                           | Notes                                      |
 | :-------------- | ------------------------------- | ------------------------------------------ |
 | E-Steps         | 421.98                          |                                            |
