@@ -1,0 +1,3 @@
+[submodule "Firmware/Marlin-Ai3M"]
+	path = Firmware/Marlin-Ai3M
+	url = git@github.com:BradenM/Marlin-Ai3M.git
