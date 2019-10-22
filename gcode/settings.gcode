@@ -1,7 +1,11 @@
-### Mesh Bed Leveling:
+; Steps per unit
+; May 31, 2019
+; M92 X80.00 Y80.00 Z400.00 E421.98
 
-```gcode
-M420 S0 Z0.00
+; Oct 22, 2019 (TMC2208 Upgrade)
+M92 X80.00 Y80.00 Z400.00 E415.50
+
+; Bed Mesh
 G29 S3 X1 Y1 Z-0.14000
 G29 S3 X2 Y1 Z-0.12000
 G29 S3 X3 Y1 Z-0.12000
@@ -27,4 +31,13 @@ G29 S3 X2 Y5 Z-0.18000
 G29 S3 X3 Y5 Z-0.18000
 G29 S3 X4 Y5 Z-0.18000
 G29 S3 X5 Y5 Z-0.16000
-```
+; Endstop adjustment
+M666 Z0.00
+; PID
+M301 P15.94 I1.17 D54.19
+M304 P251.78 I49.57 D319.73
+; Linear Advance (Firm Default, can be overriden)
+M900 K1.00
+
+; Save
+M500
