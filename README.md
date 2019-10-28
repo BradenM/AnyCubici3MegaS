@@ -4,8 +4,8 @@ Notes, Firmware, Configs, Scripts, etc. for my AnyCubic i3 Mega-S Printer
 
 ## Upgrades
 
-- [x] [Marlin-Ai3M](./Firmware/Marlin-Ai3M) Firmware
-- [ ] TMC2208 Stepper Motor Drivers
+- [x] [Marlin-Ai3M](https://github.com/BradenM/Marlin-Ai3M) Firmware
+- [x] TMC2208 Stepper Motor Drivers
 - [ ] New Motherboard Fan
 - [ ] New Hotend Radiator Fan
 - [x] Mesh Bed Leveling
