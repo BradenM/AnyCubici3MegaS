@@ -1,9 +1,11 @@
 ## Firmware Configuration
 
-Configured for AnyCubic i3 Mega-S with Stock Drivers.
+Configured for AnyCubic i3 Mega-S with TMC2208v3
 
-Below are changes that deviate from upsteam.
+Currently experimenting with `v2.0.X`.
 
-| Setting            | Value         | Notes                                      |
-| ------------------ | ------------- | ------------------------------------------ |
-| JUNCTION_DEVIATION | **[ON]** 0.02 | Fixed Slow Print Times with Linear Advance |
+Below are changes that deviate from upstream.
+
+| Setting            | Value         | Notes                                 |
+| ------------------ | ------------- | ------------------------------------- |
+| JUNCTION_DEVIATION | **[ON]** 0.05 | Seems to provide much sharper corners |
